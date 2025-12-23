@@ -10,11 +10,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.shoppinglistcomposelesson"
+    namespace = "com.example.shopapp"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.shoppinglistcomposelesson"
+        applicationId = "com.example.shopapp"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
