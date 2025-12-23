@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ShoppingListComposeLesson"
+rootProject.name = "ShopApp"
 include(":app")

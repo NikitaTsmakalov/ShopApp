@@ -1,0 +1,17 @@
+package com.example.shopapp.data
+
+import androidx.room.Database
+import androidx.room.RoomDatabase
+
+@Database(
+    entities = [
+        ShoppingListItem::class,
+        AddItem::class,
+        NoteItem::class
+    ],
+    version = 1,
+    exportSchema = false
+)
+abstract class MainDb: RoomDatabase() {
+    abstract val shoppingListDao: ShoppingListDao
+}

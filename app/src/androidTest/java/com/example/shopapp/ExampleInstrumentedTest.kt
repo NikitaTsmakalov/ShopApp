@@ -1,4 +1,4 @@
-package com.example.shoppinglistcomposelesson
+package com.example.shopapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
